@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context reloadable="true">
+    <Resource
+            name="jdbc/Grade_ManagementDS"
+            type="javax.sql.DataSource"
+            maxTotal="4"
+            maxIdle="2"
+            driverClassName="com.mysql.cj.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/LupyMIS15?useSSL=false"
+            username="root"
+            password="Lpy123456"
+            maxWaitMills="5000"
+    />
+
+</Context>
